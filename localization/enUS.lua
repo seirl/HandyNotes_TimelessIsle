@@ -87,6 +87,7 @@ L["options_title"] = "Timeless Isle";
 L["options_icon_settings"] = "Icon Settings";
 L["options_icons_treasures"] = "Treasure Icons";
 L["options_icons_rares"] = "Rare Icons";
+L["options_icons_caves"] = "Caves Icons";
 L["options_icons_other"] = "Other Icons";
 L["options_scale"] = "Scale";
 L["options_scale_desc"] = "1 = 100%";
