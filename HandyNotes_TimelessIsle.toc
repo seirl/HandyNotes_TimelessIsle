@@ -1,6 +1,6 @@
-## Interface: 80200
+## Interface: 80205
 ## Title: HandyNotes_TimelessIsle
-## Version: 1.1
+## Version: 1.2
 ## Notes: TimelessIsle Notes
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes
