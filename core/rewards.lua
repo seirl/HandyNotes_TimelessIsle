@@ -95,7 +95,7 @@ function Item:init ()
 end
 
 function Item:obtained ()
-    if self.quest then return IsQuestFlaggedCompleted(self.quest) end
+    if self.quest then return C_QuestLog.IsComplete(self.quest) end
     return true
 end
 
@@ -103,10 +103,10 @@ function Item:render (tooltip)
     local text = self.itemLink
     local status = ''
     if self.quest then
-        local completed = IsQuestFlaggedCompleted(self.quest)
+        local completed = C_QuestLog.IsComplete(self.quest)
         status = completed and L['(completed)'] or L['(incomplete)']
     elseif self.weekly then
-        local completed = IsQuestFlaggedCompleted(self.weekly)
+        local completed = C_QuestLog.IsComplete(self.weekly)
         status = completed and L['(gweekly)'] or L['(rweekly)']
     end
 
